@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
         if (!data.result.images) {
             let tex = `
-𝗔𝗤𝗨𝗜 𝗧𝗜𝗘𝗡𝗘𝗦 𝗧𝗨 𝗩𝗜𝗗𝗘𝗢 👹
+𝘼𝙌𝙐𝙄́ 𝙏𝙄𝙀𝙉𝙀𝙎 𝙀𝙇 𝙑𝙄𝘿𝙀𝙊 🌷
 `
             conn.sendFile(m.chat, data.result.play, 'tiktok.mp4', tex, m);
             m.react(done)
@@ -31,7 +31,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         }
 
       } catch (error) {
-        m.reply(`❎ ${mssg.error}`)
+        m.reply(`❌ ${mssg.error}`)
     }
    
 }
