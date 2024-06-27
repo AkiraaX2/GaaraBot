@@ -5,7 +5,7 @@ import path from "path";
 let handler = async (m, { conn, args, usedPrefix, text, command }) => {
     try {
         if (!text) return m.reply(`➤.˚✄\
- 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡! .˚✄\n\n🔮 𝙁𝙤𝙧𝙢𝙖𝙩𝙤 𝙞𝙣𝙘𝙤𝙧𝙧𝙚𝙘𝙩𝙤\n\n» 𝙐𝙨𝙚 𝙚𝙡 𝙘𝙤𝙢𝙖𝙣𝙙𝙤:\n𝘌𝘫𝘦𝘮𝘱𝘭𝘰: *${usedPrefix + command}* <link>`);
+ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡! .˚✄\n\n🍁 𝗙𝗼𝗿𝗺𝗮𝘁𝗼 𝗜𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼\n\n» 𝗨𝘀𝗲́ 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼:\n𝘌𝘫𝘦𝘮𝘱𝘭𝘰: *${usedPrefix + command}* <link>`);
 
         const file = File.fromURL(text);
         await file.loadAttributes();
