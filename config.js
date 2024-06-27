@@ -21,12 +21,12 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝗬𝘂𝗹𝗶𝗕𝗼𝘁' 
-global.author = '@xs.akiraa' 
+global.packname = '𝙔𝙪𝙡𝙞𝘽𝙤𝙩' 
+global.author = '@edits.yuli' 
 
 //--info FG
-global.botName = 'Genesis'
-global.fgig = 'https://instagram.com/max_xitado.pe' 
+global.botName = '𝙔𝙪𝙡𝙞𝘽𝙤𝙩'
+global.fgig = 'https://instagram.com/edits.yuli' 
 global.fgsc = 'https://github.com/karim-off/GenesisBot-Pro' 
 global.fgyt = ''
 global.fgpyp = ''
