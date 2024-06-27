@@ -11,7 +11,7 @@ export async function before(m, { conn }) {
     user.role = global.rpg.role(user.level).name
     if (before !== user.level) {
         m.reply(`
-*▢ SUBISTE DE NIVEL*
+*▢ 𝑆𝑢𝑏𝑖𝑠𝑡𝑒 𝑑𝑒 𝑛𝑖𝑣𝑒𝑙*
 
  *${before}* ‣  *${user.level}*
  Rango : *${user.role}*
