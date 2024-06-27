@@ -27,7 +27,7 @@ global.author = '@edits.yuli'
 //--info FG
 global.botName = '𝙔𝙪𝙡𝙞𝘽𝙤𝙩'
 global.fgig = 'https://instagram.com/edits.yuli' 
-global.fgsc = 'https://github.com/karim-off/GenesisBot-Pro' 
+global.fgsc = 'https://github.com/AkiraaX2/YuliDesign' 
 global.fgyt = ''
 global.fgpyp = ''
 global.fglog = '' 
