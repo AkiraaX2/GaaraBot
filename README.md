@@ -3,7 +3,7 @@
 <img src="https://telegra.ph/file/ead3021c62bc61c9b1d49.jpg" alt="GenesisBot-Pro" width="900"/>
 </p>
 
-#### Version De Génesis: Beta
+#### Version De Akira: Beta
 
 #### Creadora y Dueña: Florcita 🫅
 #### Proyecto Realizado: XB STAFF⚡
