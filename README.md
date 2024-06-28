@@ -42,5 +42,5 @@
 
 
 ### 🔮 CREADOR 
-[![Karim-off](https://github.com/Karim-off.png?size=100)](https://github.com/Karim-off) 
-> Copyright (c) 2024 **[Karim-off](https://github.com/Karim-off/XiaBot-Pro/blob/master/LICENSE)**.
+[![Akiraa Bot](https://github.com/AkiraaX2/YuliDesign.png?size=100)](https://github.com/AkiraaX2/YuliDesign) 
+> Copyright (c) 2024 **[Karim-off](https://github.com/AkiraaX2/YuliDesign/AkiraaBot/blob/master/LICENSE)**.
