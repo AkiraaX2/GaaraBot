@@ -6,10 +6,10 @@ let handler = async (m, {conn, text }) => {
 	let tes = results.videos
 let teks = tes.map(v => `
 📌 ${v.title}
-*⌚${mssg.duration}:* ${v.timestamp}
-*📆${mssg.aploud}:* ${v.ago}
+*⏱️${mssg.duration}:* ${v.timestamp}
+*🗓${mssg.aploud}:* ${v.ago}
 *👀${mssg.views}:* ${v.views.toLocaleString()}
-*🔗${mssg.link}:* ${v.url}
+*📌${mssg.link}:* ${v.url}
 `.trim()).join('\n________________________\n\n')
 	conn.sendFile(m.chat, tes[0].image, 'yts.jpeg', teks, m)
 }
