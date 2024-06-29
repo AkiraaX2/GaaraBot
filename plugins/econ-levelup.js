@@ -7,12 +7,14 @@ let handler = async (m, { conn }) => {
     if (!canLevelUp(user.level, user.exp, global.multiplier)) {
         let { min, xp, max } = xpRange(user.level, global.multiplier)
         let txt = `
-┌───⊷ *${mssg.lvl.toUpperCase()}*
-▢ ${mssg.name}: *${name}*
-▢ ${mssg.lvl}: *${user.level}*
-▢ XP : *${user.exp - min}/${xp}*
-▢ ${mssg.rank}: *${user.role}*
-└──────────────
+=͟͟͞͞ 💗  ੭ ֪ ֹ  *${mssg.lvl.toUpperCase()}*
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+  ⌦ 
+╰ ${mssg.name}: *${name}*
+╰ ${mssg.lvl}: *${user.level}*
+╰ XP : *${user.exp - min}/${xp}*
+╰ ${mssg.rank}: *${user.role}*
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 
 *${max - user.exp} XP* ${mssg.fxp}
 `.trim()
@@ -39,11 +41,13 @@ try {
     	user.role = global.rpg.role(user.level).name
        
         let str = `
-┌─⊷ *LEVEL UP*
-▢ ${mssg.lvlbfor}: *${before}*
-▢ ${mssg.lvlup}: *${user.level}*
-▢ ${mssg.rank}: *${user.role}*
-└──────────────
+=͟͟͞͞ 💗  ੭ ֪ ֹ  *LEVEL UP*
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
+  ⌦ 
+╰ ${mssg.lvlbfor}: *${before}*
+╰ ${mssg.lvlup}: *${user.level}*
+╰ ${mssg.rank}: *${user.role}*
+︶︶︶︶︶︶︶︶︶︶︶︶︶︶︶
 `.trim()
         
 try {
