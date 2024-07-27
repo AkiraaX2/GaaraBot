@@ -24,8 +24,8 @@ global.packname = 'GAARABOT'
 global.author = '@xs.akiraa' 
 
 //--info FG
-global.botName = '𝙔𝙪𝙡𝙞𝘽𝙤𝙩'
-global.fgig = 'https://instagram.com/edits.yuli' 
+global.botName = 'GaaraBot'
+global.fgig = 'https://instagram.com/xs.akiraa' 
 global.fgsc = 'https://github.com/AkiraaX2/YuliDesign' 
 global.fgyt = ''
 global.fgpyp = ''
