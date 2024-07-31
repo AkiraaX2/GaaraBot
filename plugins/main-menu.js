@@ -51,7 +51,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let { exp, diamond, level, role } = global.db.data.users[m.sender]
     let { min, xp, max } = xpRange(level, global.multiplier)
     let name = await conn.getName(m.sender)
-     let d = new Date(new Date + 3600000)
+    let d = new Date(new Date + 3600000)
     let locale = 'es'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
@@ -129,8 +129,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       '%': '%',
       p: _p, uptime, muptime,
       me: conn.getName(conn.user.jid),
-      sbot: (conn.user.jid == global.conn.user.jid ? '' : `\n✰ ✨ 𝐒𝐔𝐁 メ 𝐁𝐎𝐓 𝐃𝐄:
-\nwa.me/${global.conn.user.jid.split`@`[0]}`), 
+      sbot: (conn.user.jid == global.conn.user.jid ? '' : `\n▢ ✨ *Sub-Bot de:*\nwa.me/${global.conn.user.jid.split`@`[0]}`), 
       npmname: _package.name,
       npmdesc: _package.description,
       version: _package.version,
@@ -144,34 +143,18 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-global.fcontact = {
-        key: {
-            fromMe: false,
-            participant: `0@s.whatsapp.net`,
-            remoteJid: "status@broadcast",
-        },
-        message: {
-            contactMessage: {
-                displayName: `\n 🌸 𝐘𝐔𝐌𝐈𝐊𝐎 𝐁𝐎𝐓 🌸 \n
-𝐋𝐀 𝐌𝐄𝐉𝐎𝐑 𝐑𝐄𝐘𝐍𝐀`,
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
-            },
-        },
-    };
+    let pp = './src/Menu.jpg'
 
-    let pp = 'https://i.ibb.co/R2kJKhm/file.jpg'
-    await conn.reply(m.chat, ' 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 メ 𝐌𝐄𝐍𝐔 シ︎', fcontact);
-
-    /*conn.sendButton(m.chat, text.trim(), `✰ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
+    /*conn.sendButton(m.chat, text.trim(), `▢ DyLux  ┃ ᴮᴼᵀ\n${mssg.ig}`, pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m, rpl)*/
-    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(),m, null, fwc)
-    m.react('🌸') 
+    conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, rcanal)
+    m.react('🔥') 
 
   } catch (e) {
-    conn.reply(m.chat, '❎ 𝐋𝐎 𝐒𝐈𝐄𝐍𝐓𝐎, 𝐄𝐋 𝐌𝐄𝐍𝐔́ 𝐓𝐈𝐄𝐍𝐄 𝐔𝐍 𝐄𝐑𝐑𝐎𝐑', m)
+    conn.reply(m.chat, '❎ Lo sentimos, el menú tiene un error', m)
     throw e
   }
 }
