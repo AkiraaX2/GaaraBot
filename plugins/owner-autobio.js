@@ -8,7 +8,8 @@ let handler = m => m
  _muptime = await new Promise(resolve => { process.once('message', resolve)  
  setTimeout(resolve, 2000) }) * 1000} 
  let uptime = clockString(_uptime) 
- let bio = `🌷 𝗬𝘂𝗹𝗶 𝗕𝗼𝘁 ┆ 🍁 𝗔𝗸𝗶𝗿𝗮𝗮𝗕𝗼𝘁 𝙊𝙉𝙇𝙄𝙉𝙀 𝘿𝙪𝙧𝙖𝙣𝙩𝙚 ${uptime}` 
+ let bio = `𓏲 ๋࣭ ࣪ ˖🔥𝗚𝗮𝗮𝗿𝗮 → 𝗕𝗼𝘁
+→🌙‧₊˚ 𝗢𝗻𝗹𝗶𝗻𝗲 𝗗𝘂𝗿𝗮𝗻𝘁𝗲: ${uptime}` 
  await this.updateProfileStatus(bio).catch(_ => _) 
  setting.status = new Date() * 1 
  }  
