@@ -1,6 +1,6 @@
 ### 🍒 Akira Bot 🍒
 <p align="center">
-<img src="https://telegra.ph/file/ead3021c62bc61c9b1d49.jpg" alt="GenesisBot-Pro" width="900"/>
+<img src="https://telegra.ph/file/4f5019e2f2074ae57ad2c.jpg" alt="GenesisBot-Pro" width="900"/>
 </p>
 
 #### Version De Akira: Beta
