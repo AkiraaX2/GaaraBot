@@ -5,7 +5,7 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   let user = global.db.data.users[m.sender]
   let name2 = conn.getName(m.sender)
   let pp = await conn.profilePictureUrl(m.sender, 'image').catch(_ => './src/Menu.jpg')
- if (user.registered === true) throw `✳️ ${mssg.regIsOn}\n\n${usedPrefix}unreg <sn>`
+ if (user.registered === true) throw `🌙 ${mssg.regIsOn}\n\n${usedPrefix}unreg <sn>`
 
   let te = `✳️ ${mssg.useCmd}: *${usedPrefix + command} ${mssg.name}+${mssg.age}+${mssg.gender}*\n📌 ${mssg.example}: *${usedPrefix + command}* Manolo+16+M\n\n▢ ${mssg.genderList}:\n*- M* = ${mssg.man}\n*- F* ${mssg.woman}\n*- N* = ${mssg.other}`
   if (!Reg.test(text)) throw te
