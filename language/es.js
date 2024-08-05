@@ -242,7 +242,7 @@ const translations = {
     man: 'Hombre',
     woman: 'Mujer',
     other: 'Otro',
-    regIsOn: 'Ya estás registrado\n\n¿Quiere volver a registrarse?\n\n 📌 Use este comando para eliminar su registro',
+    regIsOn: 'Ya estás registrado\n\n¿Quiere volver a registrarse?\n\n  Use este comando para eliminar su registro',
     nameMax: 'El nombre es demasiando largo',
     oldReg: 'Wow el abuelo quiere jugar al bot',
     numSn: 'Número de Serie',
