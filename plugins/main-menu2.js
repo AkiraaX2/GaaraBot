@@ -3,7 +3,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
     m.react('🔥')
 
 let m2 = 
-─˖ ◜𝐇𝐨𝐥𝐚! 𝐒𝐨𝐲 𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭 ꒱ !
+─˖ '𝐇𝐨𝐥𝐚! 𝐒𝐨𝐲 𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭 ꒱ !
 യ 𝐓𝐞 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐦𝐢 𝐦𝐞𝐧𝐮 𝐝𝐞 𝐚𝐮𝐝𝐢𝐨𝐬𓂃🔥
 
 *╭────𝑨𝒖𝒅𝒊𝒐𝒔✎*
@@ -50,8 +50,8 @@ global.fcontact = {
 
 }
 
-handler.help = ['menuaudios']
+handler.help = ['menu2']
 handler.tags = ['main']
-handler.command = ['menuaudios', 'audiosmenu'] 
+handler.command = ['menu2', 'audiosmenu'] 
 
 export default handler
