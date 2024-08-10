@@ -2,8 +2,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 
     m.react('🔥')
 
-let m2 = 
-─˖ ◜𝐇𝐨𝐥𝐚! 𝐒𝐨𝐲 𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭 ꒱ !
+let m2 = ` ─˖ ◜𝐇𝐨𝐥𝐚! 𝐒𝐨𝐲 𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭 ꒱ !
 യ 𝐓𝐞 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐦𝐢 𝐦𝐞𝐧𝐮 𝐝𝐞 𝐚𝐮𝐝𝐢𝐨𝐬𓂃🔥
 
 *╭────𝑨𝒖𝒅𝒊𝒐𝒔✎*
@@ -35,8 +34,7 @@ global.fcontact = {
         },
         message: {
             contactMessage: {
-                displayName: `\𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭🔥\n`,
-                vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
+                displayName: `\𝐆𝐚𝐚𝐫𝐚𝐁𝐨𝐭\n`,vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:xd\nitem1.TEL;waid=${m.sender.split("@")[0]}:${m.sender.split("@")[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
             },
         },
     };
