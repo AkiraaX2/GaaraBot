@@ -22,7 +22,7 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = 'GAARABOT' 
-global.author = '@xs.akiraa' 
+global.author = '@xs.kanekii' 
 
 //--info FG
 global.botName = 'GaaraBot'
@@ -33,11 +33,11 @@ global.fgpyp = ''
 global.fglog = '' 
 
 //--- Grupos WA
-global.id_canal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y' //-ID de canal de WhatsApp
-global.fgcanal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y'
-global.bgp = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6'
-global.bgp2 = 'https://chat.whatsapp.com/J4GaLNqbzAHEkzNQy9N62O'
-global.bgp3 = 'https://chat.whatsapp.com/J4GaLNqbzAHEkzNQy9N62O' //--GP NSFW
+global.id_canal = 'https://whatsapp.com/channel/0029VanYFh4InlqQDKAJHQ3m' //-ID de canal de WhatsApp
+global.fgcanal = 'https://whatsapp.com/channel/0029VanYFh4InlqQDKAJHQ3m'
+global.bgp = 'https://chat.whatsapp.com/CQrGf0OJEVQI3gSIpOH771'
+global.bgp2 = 'https://chat.whatsapp.com/CQrGf0OJEVQI3gSIpOH771'
+global.bgp3 = 
 
 global.wait = '🔥𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨....'
 global.rwait = '⌛'
